@@ -64,10 +64,20 @@
   padding: 1px 5px;
   font-size: 16px;
 }
-.oxmod-product .desc-text {
+.oxmod-product .detail {
   border-radius: 10px;
   border: solid 1px #ccc;
+  margin: 10px 5px;
+}
+.oxmod-product .desc-section {
   padding: 10px 5px;
+  border-top: solid 1px #ccc;
+}
+.oxmod-product .desc-section:first-child {
+  border-top-style: none;
+}
+.oxmod-product .desc-text img {
+  max-width: 100%;
 }
 .oxmod-product .img-slider {
   /* CSS */

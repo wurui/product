@@ -49,10 +49,25 @@
                 <button class="bt-buy">立即购买</button>
             </div>
             <label class="label">商品信息</label>
-            <div class="desc">
+            <div class="detail">
+                <div class="desc-section">
+                    <h4>描述</h4>
+                    <div class="desc-text">
+                        <xsl:value-of disable-output-escaping="yes" select="$product/desc"/>
+                    </div>
+                </div>
+                <div class="desc-section">
+                    <h4>参数</h4>
+                    <div class="desc-text">
+                        <xsl:for-each select="$product/param/i">
+                            <p>
+                                <label><xsl:value-of select="label"/></label>
+                                <xsl:value-of select="value"/>
+                            </p>
 
-                <div class="desc-text">
-                    <xsl:value-of select="$product/desc"/>
+                        </xsl:for-each>
+                    </div>
+
                 </div>
             </div>
 
