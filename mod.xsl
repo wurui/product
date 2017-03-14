@@ -45,8 +45,15 @@
                     </xsl:for-each>
                 </p>
             </div>
+            <div class="op">
+                <button class="bt-buy">立即购买</button>
+            </div>
+            <label class="label">商品信息</label>
             <div class="desc">
-                <xsl:value-of select="$product/desc"/>
+
+                <div class="desc-text">
+                    <xsl:value-of select="$product/desc"/>
+                </div>
             </div>
 
         </div>
