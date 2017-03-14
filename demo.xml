@@ -1,48 +1,64 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <p>
-    <title>demo page</title>
-    <desc>this is deme page</desc>
-    <owner>openxsl</owner>
-    <icon>//oxm1.cc/img/app_default.png</icon>
-  </p>
-  <data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
         <product>
-        <id>
-            strong notebook
-        </id>
-        <price>
-            0.08
-        </price>
-        <orig_price>
-            2.32
-        </orig_price>
-        <img>
-            <i>
-                //oxm1.cc/img/fox.jpg
-            </i>
-        </img>
-        <title>
-            car
-        </title>
-        <desc>
-            powerful mobilephone
-        </desc>
-        <param>
-            <i>
-                <label>
-                    mobilephone
-                </label>
-                <value>
-                    wallet
-                </value>
-            </i>
-        </param>
-    </product>
-  </data>
+            <id>
+                strong notebook
+            </id>
+            <price>
+                0.08
+            </price>
+            <orig_price>
+                2.32
+            </orig_price>
+            <img>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2aj4ikjxcTj07uh1sgRtjukA8ob-667.jpg</i>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ajj22zsuTiztaylwyRba07Flrp.jpg</i>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ajj230djTiztaylc9R2k8rGoeu.jpg</i>
+            </img>
+            <title>好时（Hershey’s）好时kisses臻吻巧克力 浪漫满屋 京东限量定制礼盒 90g</title>
+            <desc><![CDATA[
+            产品描述
+如果说惠威M200开辟了PC行业的HIFI时代，其第三代产品M200MKIII即是皇冠上的明珠，凭借先进的现代电声设计理念及出众声音表现征服了无数发烧友，也成为众多音乐爱好者的梦想之选。…
+包装清单
+主音箱*1、副音箱*1、遥控器*1、连接线*1、电源线*1、RCA转3.5音频线*1、光纤线*1、说明书*1、保修卡*1、合格证*1
+品牌简介
+惠威音响源自中国，名誉世界。 经过24年的高速发展，HiVi惠威已成为高级音响制造公司，并且以各类杰出电声产品享誉业界。…
+>	产品特征
+4000909199/020-34922886 28毫米天然纤维振膜球顶高音/5.25英寸长冲程大动态低音…
+产品详情
+制造商: HIVI 惠威
+型号： M200MKIII+
+产品尺寸及重量: 27.3 cm x 19.4 cm x 33.8 cm; 13 Kg
+发货重量: 17 Kg
+ASIN: B01MTW25ET
+Amazon.cn销售排行榜: 77
+            ]]>
+            </desc>
+            <tags>
+                <i>baoyou</i>
+            </tags>
+            <param>
+                <i>
+                    <label>
+                        mobilephone
+                    </label>
+                    <value>
+                        wallet
+                    </value>
+                </i>
+            </param>
+        </product>
+    </data>
 
 </root>
