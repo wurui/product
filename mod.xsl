@@ -1,6 +1,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:oxm="https://www.openxsl.com">
 
     <xsl:template match="/root" name="wurui.product">
+        <xsl:param name="buyurl"></xsl:param>
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-product" ox-mod="product">
             <xsl:variable name="product" select="data/product"/>
@@ -11,11 +12,8 @@
                         <div class="flip-pages" style="width:{count($product/img/i)}00%;">
                             <xsl:for-each select="$product/img/i">
 
-
                                 <img class="flip-page" style="background-image:url({.});"
                                                  src="http://a.oxm1.cc/img/blank.png" />
-
-
 
                             </xsl:for-each>
                         </div>
@@ -46,7 +44,9 @@
                 </p>
             </div>
             <div class="op">
-                <button class="bt-buy">立即购买</button>
+                <form action="{$buyurl}?_id={$product/_id}">
+                    <button class="bt-buy">立即购买</button>
+                </form>
             </div>
             <label class="label">商品信息</label>
             <div class="detail">
