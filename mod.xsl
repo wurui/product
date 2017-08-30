@@ -44,7 +44,9 @@
                 </p>
             </div>
             <div class="op">
-                <form action="{$buyurl}?_id={$product/_id}">
+                <form action="{$buyurl}">
+                    <input type="hidden" name="id" value="{normalize-space($product/id)}"/>
+                    <input type="hidden" name="_id" value="{normalize-space($product/_id)}"/>
                     <button class="bt-buy">立即购买</button>
                 </form>
             </div>
