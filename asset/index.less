@@ -87,18 +87,21 @@
   .img-slider {
     /* CSS */
     width: 100%;
+    max-width: 480px;
     height: @height;
     overflow: hidden;
+    margin:0 auto;
     & > div {
       height: 100%;
     }
     .flip-pages {
-      display: flex;
+      display: -webkit-flex;
     }
     /* CSS */
     .flip-page {
       width: 100%;
       height: @height;
+      max-width: 480px;
       background-repeat: no-repeat;
       background-position: center center;
       background-size: contain;
